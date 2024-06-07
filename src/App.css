@@ -1,0 +1,42 @@
+body{
+    background-color: #242424;
+}
+
+.card {
+    border: 1px solid #fff;
+    padding: 16px;
+    border-radius: 16px;
+    width: 330px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.card:hover{
+        box-shadow: 3px 3px whitesmoke;
+        translate: -3px -3px;
+}
+
+.card h2{
+    font-size: 32px;
+    color: #fff;
+    font-family: sans-serif;
+    border-left: 10px dotted cyan;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tag h5{
+    background-color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+.card img{
+    border-radius: 16px;
+    margin: 20px 0 10px 0;
+    width: 200px;
+}
